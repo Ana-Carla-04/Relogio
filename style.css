@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 192, 205);
+}
+
+
+.caixa {
+    height: 50vh;
+    width: 110vh;
+    background-color: rgb(212, 131, 207);
+    border: 10px solid rgb(142, 31, 94);
+}
+
+.container {
+    font-size: 80px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 20pxvh;
+    width: 60vh;
+
+    background-color: rgba(187, 194, 167, 0.445);
+    margin-left: 130px;
+    margin-top: 90px;
+    box-shadow: 10px 5px 5px black;
+    ;
+}
+
+
+.titulo {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.datinha {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 250px;
+    width: 80px;
+    height: 20px;
+    color: rgb(62, 63, 64);
+
+}
